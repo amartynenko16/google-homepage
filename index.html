@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .site {
+               display: flex;
+               min-height: 100vh;
+               flex-direction: column;
+           }
+           .nav {
+               display: flex;
+               margin-top: 10px;
+           }
+           img {
+            display: block;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            }
+            .img2 {
+                width: 20px;
+                height: 20px;
+                margin-top: auto;
+            }
+            .textbox {
+                display: block;
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 500px;
+                height: 35px;
+                border-radius: 20px;
+                border: 1px solid #ddd;
+                background-color: white;
+            }
+            #buttons{
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                width: 275px;
+                justify-content: space-evenly;
+            }
+            .button-style {
+                border-radius: 5px;
+                height: 35px;
+                width: 125px;
+                border: 1px solid #fff;
+                background-color: #EEE;
+                color: rgb(125, 125, 125);
+                }
+            .french {
+                font-size: 12px;
+                text-align: center;
+                flex-grow: 0.97;
+            }
+            #footer {
+                background-color: #eee;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                font-size: 12px;
+                color: rgb(125, 125, 125);
+            }
+            #footer1 {
+                padding-inline: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+            }
+
+            ul1 {
+                list-style-type: none;
+                margin: 0;
+                width: 100%;
+                padding: 0;
+                overflow: hidden;
+                font-size: 11px;
+            }
+            li1 {
+                float: left;
+                padding-inline: 10px;
+             
+            }
+            ul2 {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                font-size: 11px;
+            }
+            li2 {
+                float: left;
+                padding-inline: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #ddd;                
+            }
+            .sign-in{
+                background-color: blue;
+                height: 30px;
+                width: 75px;
+                border: 0px solid white;
+                border-radius: 5px;
+                color: white;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body class="site">
+        <nav class="nav">
+            <ul1>
+                <li1>About</li1>
+                <li1>Store</li1>
+                <li1 style="float:right"><button class="sign-in">Sign In</button></li1>
+                <li1 style="float:right"><img class="img2" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"></li1>
+                <li1 style="float:right">Images</li1>
+                <li1 style="float:right">Gmail</li1>
+            </ul1>
+        </nav>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google company logo">
+        <br>
+        <input class="textbox" type="textbox"></input>
+        <br>
+        <br>
+        <div id="buttons">
+            <button class="button-style" type="button">Google Search</button>
+            <button class="button-style" type="button">I'm Feeling Lucky</button>
+        </div>
+        <br>
+        <br>
+            <p class="french">Google offered in: <a href="">Français</a></p>
+        <footer id="footer">
+            <div id="footer1">
+            Canada
+            </div>
+            <div>
+                <ul2>
+                    <li2>Advertising</li2>
+                    <li2>Business   </li2>
+                    <li2>How Search Works</li2>
+                    <li2 style="float:right">Settings</li2>
+                    <li2 style="float:right">Terms</li2>
+                    <li2 style="float:right">Privacy</li2>                     
+                </ul2>
+                
+            </div>
+        </footer>
+    </body>
+</html>
